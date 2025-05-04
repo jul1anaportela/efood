@@ -13,7 +13,9 @@ const CategoryHeader = () => (
         </li>
       </ul>
     </nav>
-    <img src={logo} alt="logo efood" />
+    <Link to="/">
+      <img src={logo} alt="logo efood" />
+    </Link>
     <div>
       <span>0 - produto(s) no carrinho</span>
     </div>
