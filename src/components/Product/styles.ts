@@ -5,6 +5,7 @@ import { ButtonContainer } from '../Button/styles'
 
 export const Card = styled.div`
   background-color: ${cores.branca};
+  border: solid 1px ${cores.vermelho};
   position: relative;
 
   ${TagContainer} {
