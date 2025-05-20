@@ -1,6 +1,7 @@
 import { useLocation } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 
+//import BannerImg from '../../assets/images/header-categoria.png'
 import { BannerContainer, BannerImage, Infos, TitleRestaurant } from './styles'
 
 const CategoryBanner = () => {
@@ -35,6 +36,7 @@ const CategoryBanner = () => {
         <BannerImage
           style={{
             backgroundImage: `url(${decodeURIComponent(productInfo.image)})`
+            // backgroundImage: `url(${BannerImg})`
           }}
         >
           <Infos>{productInfo.infos.join(', ')}</Infos>
