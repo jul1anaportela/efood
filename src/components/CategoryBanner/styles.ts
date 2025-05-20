@@ -30,7 +30,7 @@ export const BannerImage = styled.div`
      left: 0;
      width: 100%;
      height: 100%;
-    // background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
      z-index: 0; /* Garante que o overlay esteja acima da imagem */
   // }
 `
